@@ -18,7 +18,14 @@
     "social",
     "signals"
   ],
-  "repository": "github:akhilmukkamala/socialsignals",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilmukkamala/socialsignals.git"
+  },
   "author": "Akhil Mukkamala",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhilmukkamala/socialsignals/issues"
+  },
+  "homepage": "https://github.com/akhilmukkamala/socialsignals#readme"
 }
