@@ -18,5 +18,6 @@
     "social",
     "signals"
   ],
-  "author": "Akhil Mukkamala"
+  "author": "Akhil Mukkamala",
+  "license": "MIT"
 }
