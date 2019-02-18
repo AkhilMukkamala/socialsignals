@@ -1,22 +1,24 @@
 // Start
-const request = require('request-promise');
+let domain = 'http://developerfox.com';
+let fbAppDetails = '2282363855366100|09544465162179fd469341670c2683f7';
 
-const getFacebookSignals = (domain, fbAppDetails) => {
+var rp = require('request-promise');
 
-    let details = {
-        method: 'GET',
-        uri: `https://graph.facebook.com/v3.2/?id=${domain}&fields=engagement&access_token=${fbAppDetails}`,
-        resolveWithFullResponse: true,
-        json: true
-    }
-
-    request(details).then((res) => {
-        let body = res.body;
-        console.log('body', body)
-        return body;
-    }).catch(error => {
-        throw error;
+let getFacebookSignals = async (domain, fbAppDetails) => {
+    return new Promise((resolve, reject) => {
+        let options = {
+            uri: `https://graph.facebook.com/v3.2/?id=${domain}&fields=engagement&access_token=${fbAppDetails}`,
+            method: 'GET'
+        }
+        rp(options).then(res => {
+            let data = JSON.parse(res);
+            return resolve(data);
+        }).catch(err => {
+            return resolve(err);
+        })
     })
 }
 
 module.exports.getFacebookSignals = getFacebookSignals;
+
+

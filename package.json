@@ -1,6 +1,6 @@
 {
   "name": "@weetrak/socialsignals",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "This package helps you get social signals for various social networking sites, For Example: Likes, comments, shares for facebook etc.",
   "main": "app.js",
   "scripts": {
@@ -30,7 +30,6 @@
   },
   "homepage": "https://github.com/akhilmukkamala/socialsignals#readme",
   "dependencies": {
-    "axios": "^0.18.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   }
