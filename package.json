@@ -1,5 +1,5 @@
 {
-  "name": "@weetrak/socialsignals",
+  "name": "socialsignals",
   "version": "1.0.0",
   "description": "This package helps you get social signals for various social networking sites, For Example: Likes, comments, shares for facebook etc.",
   "main": "app.js",
