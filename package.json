@@ -18,6 +18,7 @@
     "social",
     "signals"
   ],
+  "repository": "github:akhilmukkamala/socialsignals",
   "author": "Akhil Mukkamala",
   "license": "MIT"
 }
