@@ -1,11 +1,12 @@
 {
   "name": "@weetrak/socialsignals",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This package helps you get social signals for various social networking sites, For Example: Likes, comments, shares for facebook etc.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scope": "@weetrak",
   "keywords": [
     "social",
     "shares",
@@ -27,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/akhilmukkamala/socialsignals/issues"
   },
-  "homepage": "https://github.com/akhilmukkamala/socialsignals#readme"
+  "homepage": "https://github.com/akhilmukkamala/socialsignals#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
 }
