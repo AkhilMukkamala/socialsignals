@@ -25,6 +25,13 @@ Get Facebook Likes, Shares, Comments Count.
 * Second Argument takes FBAppCreds (Format: fbAppID|fbAppSecret)
 
 ```javascript
+
+fbAppCredentials  = fbAppId|fbAppSecret;
+
+example:
+
+let fbAppCredentials = '2282363855366100|09544465162179fd469341670c2683f7';
+
 socialSignals.getFacebookSignals(domainName, fbAppCredentials).then(data => {
     console.log(data);
 })
