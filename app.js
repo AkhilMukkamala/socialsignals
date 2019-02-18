@@ -1,6 +1,4 @@
 // Start
-let domain = 'http://developerfox.com';
-let fbAppDetails = '2282363855366100|09544465162179fd469341670c2683f7';
 
 var rp = require('request-promise');
 
